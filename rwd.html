@@ -34,7 +34,7 @@ function change2() {
 		</ul>
 	</nav>
 	<main class="container-fluid bg-primary text-white text-center">
-				<img src="cliff.jpg"width="110%"
+				<img src="cliff.jpg" class="img-fluid rounded-circle" width="50%"
 				id="pic" onmouseover="change1()" onmouseout="change2()">
 				</img>
 				<div class="row">
@@ -57,7 +57,10 @@ function change2() {
 			<section class="col-lg-4">
 			<h3 id ="youtube">推薦影片</h3>		
 			不要去臺灣<br>
-			<iframe src="https://www.youtube.com/embed/pW88QFpHXa8" allowfullscreen></iframe>
+			<div class="ratio ratio-16x9">
+			<iframe src="https://www.youtube.com/embed/pW88QFpHXa8" allowfullscreen>
+			</iframe>
+			</div>
 
 						<iframe
    			allow="microphone;"
